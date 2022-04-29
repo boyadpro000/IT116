@@ -12,14 +12,14 @@
     <h1>First Form</h1>
     
         <form action="/Prodan">
-
+<!-- This is the label and textbox for the username, Username has atributes and ID-->
             <p>
                 <label for="username">Enter A Name:</label>
                 <input id="username" type="text" placeholder="Prodan" name="username">
 
 
             </p>
-
+<!-- This is the label and texbot for passwords, with attributes and Id and name-->
             <p>
                 <label for="password">Enter A Password:</label>
                 <input id="password" type="text" placeholder="ProdanPassword" name="password">
@@ -36,38 +36,40 @@
 
 <hr>
 
-
+<!-- This is the header for the query strings-->
 <section>
     <h1>Query Strings</h1>
+<!--This is the search box for reddit with text type and a search reddit button-->
 
         <form action="https://www.reddit.com/search/">
         <input type="text" name="q">
         <button>Search Reddit</button>
         </form>
 
-
+<!--This is the search box for Youtube with text type and a search youtube button-->
             <form action="https://www.youtube.com/results?search_query=">
             <input type="text"name="q">
             <button>Search Youtube</button>
             </form>
 
-
+<!--This is the search box for Google with text type and a search Google button-->
                 <form action="https://www.google.com/search">
                 <input type="text"name="q">
                 <button>Google Search</button>
-                </form>
-</section>
+
+            </form>
+        </section>
 
 
 <hr>
 
-
+<!-- This is the header for checkboxes and radio buttons-->
 <section>
     <h1>Checkboxes and Radio Buttons</h1>
     <form action="/birds">
         <input type="Checkbox" name="agree_tos" id="agree">
         <label for="agree">I agree to everything</label>
-
+<!--This is a checkbox that you agree to everything-->
 
         <p>
             <label for="s">Small:</label>
@@ -79,17 +81,73 @@
             <label for="l">Large:</label>
             <input type="radio" name="size" id="l" value="l">
 
+<!--This is like a label, asks you small, medium, or large and you can click only one-->
+        </p>
+
+
+        <p>
+            <label for="colors">What is your favorite Color</label>
+<!-- This is going to ask you what your favorite color is and will give you three choices, red/blue/green-->
+            <select name="colors" id="colors">
+                <option value="Red">Red</option>
+
+                <option value="Blue">Blue</option> 
+
+                <option value="Green">Green</option> 
+
+            </select>
+        </p>
+
+
+<!--This is a scrollbar from 0 to 10-->       
+        <p>
+            <label for="sbar">Prodan's Scrollbar</label>
+
+            <input type="range" id="sbar" min="0" max="10" name="Scrollbar">
+
+        </p>
+
+<!-- This will ask you if you have any special requests in a text box-->
+        <p>
+
+            <label for="requests">Type in Special Requests</label>
+            <textarea id="requests" name="textarea" rows="15" cols="15" placeholder="Type Here!"></textarea>
+
+        </p>
+        <button>Prodan</button>
+    </form>
+</section>
+
+<hr>
+
+
+<section>
+    <form action="/bananas">
+<!--This is a blank texbox-->
+        <label for="Prodan">TextBox</label>
+        <input type="text" name="textbox" id="Prodan" required>
+
+
+<!-- This is textbox for your password-->
+        <label for="Password"></label>
+        <input type="text" name="pword" id="Password" minlength="5" maxlength="10">
+<!-- Will ask you for your email-->
+        <p>
+            <input type="email" required>
 
         </p>
 
 
-</form>
+        <button type="Submit">Validatioin Button</button>
 
+
+
+
+    </form>
 
 
 
 </section>
-
 
 
 
