@@ -1,0 +1,51 @@
+
+
+
+/* Changes the color to crimpson for the class of crimson */
+.crimson{
+    color:crimson;
+}
+
+
+/* Changes the color to green for the class of green */
+.green{
+
+    color: green ;
+
+
+}
+
+/* Changes the color to meige for the class of yellowish */
+.yellowish{
+
+color:#FBEC5D ;
+
+}
+
+/* Changes the color to red for the class of red */
+.red{
+
+    color: red;
+
+
+}
+
+/* Changes the color to dark oragne for the class of orange */
+.orange{
+
+    color:darkorange;
+}
+
+/* Changes the color of the button yes to green with white font */
+#yes {
+    color:white;
+    background-color:green;
+}
+
+
+/* Changes the color of the button no to red with white font  */
+#no{
+    color: white;
+    background-color: red;
+
+}
