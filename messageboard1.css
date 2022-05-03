@@ -1,0 +1,99 @@
+/* *{
+
+    color:pink;
+    background-color: green;
+
+}
+
+
+/*changes the background color of the whole page to beige  */
+
+body{
+
+    background-color: beige;
+}
+
+
+/*makes the buttons size 30px*/
+button{ 
+    font-size: 30px;
+
+}
+
+/* Changes the header color to crimson on the h1 and h2 headers*/
+
+h1,h2{
+
+    color:crimson;
+}
+
+
+/* changed the color of the signup button to pink and blue font*/
+#signup {
+
+    background-color: pink;
+    color: blue;
+}
+
+/* Changes the class "tag" to purple for "SEC! */
+.tag {
+
+    color: purple;
+}
+
+
+/* changes "posted by" to purple  */
+.post a{
+
+    color:purple ;
+}
+
+
+/* Changes the link for nintendo to orange  */
+footer > a {
+
+    color: orange;
+}
+
+
+
+/* changes the link to google to dark orange */
+a[href*="google"] {
+
+    color:darkorange;
+}
+
+
+/* background color of red and font color of aquamarine when you gover over the buttons */
+button:hover {
+
+    background-color: red;
+    color: aquamarine;
+}
+
+
+/* makes the button green when you click "activate" it  */
+.post button:active{
+
+    background-color: green;
+
+
+}
+
+
+/* changes the font size of the first letter in the h2 tags */
+h2::first-letter{
+
+    font-size: 50px;
+
+}
+
+
+
+/* makes the first line green of the random text we put in  */
+p::first-line{
+
+color: green;
+
+
+}
