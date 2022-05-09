@@ -1,0 +1,38 @@
+/* Changes the color of the header*/
+h1 a{
+    font-size:30px;
+    color: darkred;
+}
+
+
+/* Changes the "blhs" to blue */
+#schools [href*="Blhs"] {
+
+    color:blue;
+}
+
+
+/* Changes the colors to "cars" to red*/
+#schools [href*="cars"] {
+
+    color:red;
+}
+
+
+/* Changes the color of tech to purple*/
+#schools [href*="tech"] {
+
+    color:purple;
+}
+
+/* Changes the color of "Seattle" to green*/
+#schools [href*="Seattle"] {
+
+    color:green;
+}
+
+/* Changes the color of Cowboys to dark blue */
+#schools [href*="Cowboys"] {
+
+    color:darkblue;
+}
