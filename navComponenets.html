@@ -17,22 +17,134 @@
     
     <nav class="navbar navbar-expand-md navbar-light bg-light">
 
+
+<!-- fluid if full width of the screen -->
         <div class="container-fluid">
             
+
+<!-- branding, the small image to the left top screen-->
             <a class="navbar-brand" href="https://www.nytimes.com">
                 <img src="https://pbs.twimg.com/profile_images/1326578374085472256/zBYZNAJN_400x400.jpg"
                  alt="" width="30" height="24" class="d-inline-block align-text-top">
                  Branding
             </a>
 
+<!-- this will be the nav bar-->            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+<!--collapse when you make the page smaller -->
+            <div class="collapse navbar-collapse" id="navbar1">
+
+                <ul class="navbar-nav d-flex me-auto">
+
+<!-- websites in the navbar-->                   
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://www.soonersports.com">SoonerSports</a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://www.google.com">Google</a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://www.cnn.com">News</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+<!-- When you click "More" it will dropdown with websites of nytimes-->                           
+                        <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown">More</a>
+                                
+                            <ul class="dropdown-menu">
+                                    <a href="https://www.nytimes.com" class="dropdown-item">NYTimes</a>
+
+                                    <a href="https://www.nytimes.com" class="dropdown-item">NYTimes</a>
+
+                                    <a href="https://www.nytimes.com" class="dropdown-item">NYTimes</a>
+
+                                    <a href="https://www.nytimes.com" class="dropdown-item">NYTimes</a>
+                                    
+                                </ul>
+
+                    </li>
+
+                </ul>
+<!-- Alignment of objects inside the container-->
+                <form class="d-flex" action="/testing">
+<!--Search box with a submit button -->               
+                    <input class="form-control me-2" type="search" placeholder="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
 
 
+                </form>
+
+            </div>
 
     </div>
 
 
 
 </nav>
+
+<br>
+<br>
+<!--This is bootstrap componenets without class -->
+<section>
+    <div class="container card" >
+        <h1>Bootstrap Components without Class</h1>
+<!-- Components with class-->
+        <h1 class="display-1 text-center text-success">Components With Class</h1>
+
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-danger">Red</button>
+        <button type="button" class="btn btn-warning">Yellow</button>
+        <button type="button" class="btn btn-outline-info">Info</button>
+<br>
+<hr>
+<br>
+<!--Random lorem text -->
+        <h2 class="display-4">Some Paragraph Text</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat ipsum obcaecati labore 
+            cumque minus? Maxime doloremque facere recusandae soluta vero, 
+            corporis iure? Labore ipsam deleniti vel sunt, accusantium totam perspiciatis.
+        </p>
+
+<br>
+<hr>
+<br>
+
+<!-- header buttons with colors-->
+        <h3 class="display-4">Group of Header Buttons</h3>
+            <div class="btn-group">
+                <button class="btn btn-success">One</button>
+                <button class="btn btn-danger">Two</button>
+                <button class="btn btn-warning">Three</button>
+            </div>
+
+<br>
+<hr>
+<br>
+<!--Image source for apex-->
+            <img src="https://charlieintel.com/wp-content/uploads/2020/12/apex-legends-5.jpg"
+            >
+            <blockquote class="blockquote text-left bg-light">
+                <p class="mb-2">
+                    "Apex is the best free game out there"
+                </p>
+
+                <footer class="blockquote-footer">Prodan Boyadzhiev</footer>
+            </blockquote>
+
+
+    </div>
+
+
+
+
+
+</section>
+
 
 
 
