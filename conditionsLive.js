@@ -44,7 +44,7 @@ if (dayOfWeek === 'Monday') {
     console.log("Hooray today is Saturday");
 }
 
-////////////////////////////////////////
+////////////////////////////////////////<> <> operators
 const age = prompt('Enter An age');
 
 
@@ -66,6 +66,8 @@ else {
 
 
 
+//each switch statement will have a case
+//it writes multiple else ifs and will display when conditions are met. 
 //This will print out papayas and the following message "never had a papaya". It will look through the variables and find 'papaya'
 const expr = 'Papayas';
 
@@ -98,7 +100,7 @@ const password = prompt("Please enter a new password!!!");
 
 if (password.length >= 6) {
 
-    //Nested condition 
+    //Nested condition within the main condition if the criteria is met
     if (password.indexOf(' ') === -1){
 
         console.log("Valid Password")
@@ -114,7 +116,7 @@ if (password.length >= 6) {
     console.log("Password is too short")
 }
 
-
+//functions, call the function in order to run
 function singSong() {
 
     console.log("Do");
