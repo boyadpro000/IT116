@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title></title>
+	</head>
+
+	<body>
+		<script>
+		function randomNumber(min, max) { 
+			return Math.floor(Math.random() * (max - min) + min);
+		}
+
+		let num = randomNumber(1, 100);
+
+		let guess;
+		let attempt = 0;
+
+		do
+		{
+			guess = prompt("guess a number between 1 and 100");
+
+			if(guess > num)
+			{
+				alert("Lower!");
+			}
+			else if(guess < num)
+			{
+				alert("Higher!");
+			}
+			attempt++;
+
+		} while(num != guess)
+
+		alert("Congratulations! You guessed the correct number, which was " + num + " and it took you " + attempt + " guesses.");
+
+
+		</script>
+	</body>
+
+</html>
