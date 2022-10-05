@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/boyadpro000/npm_exercise"
+    "url": "git+https://github.com/IT122/npm_exercise"
   },
   "keywords": [
     "npm",
@@ -17,7 +17,7 @@
   "author": "Prodan Boyadzhiev",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/boyadpro000/npm_exercise/issues"
+    "url": "https://github.com/IT122/npm_exercise/issues"
   },
-  "homepage": "https://github.com/boyadpro000/npm_exercise#readme"
+  "homepage": "https://github.com/IT122/npm_exercise#readme"
 }
